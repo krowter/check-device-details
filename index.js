@@ -3,6 +3,7 @@ window.onload = () => {
 
   const width = `Lebar layar adalah ${window.screen.width} px`;
   const height = `Tinggi layar adalah ${window.screen.height} px`;
+  const pixelRatio = `Pixel device ratio adalah  ${window.devicePixelRatio}`;
   const userAgent = `User agent: ${navigator.userAgent}`;
   const browserVendor = `Browser vendor-nya ${navigator.vendor}`;
 

@@ -7,7 +7,7 @@ window.onload = () => {
   const userAgent = `User agent: ${navigator.userAgent}`;
   const browserVendor = `Browser vendor-nya ${navigator.vendor}`;
 
-  const content = [width, height, userAgent, browserVendor];
+  const content = [width, height, pixelRatio, userAgent, browserVendor];
   content.forEach(text => {
     const TextNode = document.createElement("P");
     TextNode.innerHTML = `<h4>${text}</h4>`;
